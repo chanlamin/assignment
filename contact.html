@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Residency Limited</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5d71280f73.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a href="blog.html">More Info</a></li>
+          <li><a href="houses.html">Houses</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png" alt="">
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="about-home">
+      <h2>Contact Us</h2>
+    </section>
+    <section id="contact">
+      <div class="getin">
+        <h2>Get in touch</h2>
+        <p>Get in touch with us fill the form</p>
+        <div class="getin-details">
+          <h3>Headquarters</h3>
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <p>522 Mayangone Township, Yangon</p>
+          </div>
+          <h3>Phone</h3>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <p>+959778845782</p>
+          </div>
+          <h3>Support</h3>
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <p>futureresidence@gmail.com</p>
+          </div>
+          <h3>Follow Us</h3>
+          <div class="pro-links">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-behance"></i>
+            </div>
+
+        </div>
+      </div>
+      <div class="form">
+        <h4>Let's Connect</h4>
+        <p>Don't waste any more time, join us!</p>
+        <div class="form-row">
+          <input type="text" placeholder="Your Name">
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="form-col">
+          <input type="text" placeholder="Subject">
+        </div>
+        <div class="form-col">
+          <textarea name="name" cols="30" rows="8" placeholder="How can we help?"></textarea>
+        </div>
+        <div class="form-col">
+          <button>Send Messages</button>
+        </div>
+      </div>
+
+    </section>
+    <section id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.2174435568822!2d96.12684291498391!3d16.81556552346998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ebbbf8374b25%3A0x99763604b6306ad1!2sGUSTO%20University!5e0!3m2!1sen!2smm!4v1670902004634!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+    <footer>
+      <div class="footer-co1">
+        <h3>Take me to: </h3>
+        <a href="about.html"> <li>About</li></a>
+        <a href="blog.html"> <li>More Info</li></a>
+        <a href="houses.html"> <li>Houses</li></a>
+        <a href="contact.html"> <li>Contact</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>Website Tips</h3>
+        <a href="post.html"><li>Should I rent or buy a house?</li></a>
+        <a href="post2.html"><li>What is Security Deposit?</li></a>
+        <a href="post3.html"><li>Budgeting for Rent</li></a>
+        <a href="post4.html"><li>How much does an appartment cost?</li></a>
+      </div>
+
+      <div class="footer-co1">
+        <h3>Newsletter</h3>
+        <p>Give us a shot, you wont regret it!</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email Address">
+          <a href="#" class="yellow">SUBSCRIBE</a>
+
+        </div>
+
+      </div>
+      <div class="copyright">
+        <p>Copyright©2022 All rights reserved | This template is made by Chan Myae La Min.</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <script>
+    $('#menu-btn').click(function(){
+      $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    });
+    </script>
+  </body>
+</html>
